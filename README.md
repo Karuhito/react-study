@@ -1,131 +1,127 @@
-# React 学習ロードマップ
+![React](https://img.shields.io/badge/React-Learning-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-Learning-yellow)
 
-このロードマップは、Reactを使って **小規模なWebアプリを自力で作れるようになること** を目標にした学習計画です。
+# React Study 🚀
 
-想定学習時間  
-- 1日 3〜5時間
+React を使って **小規模な Web アプリを自力で開発できるようになること** を目的とした学習リポジトリです。
 
-想定期間  
-- 約30〜45日
-
----
-
-# 学習ステップ
-
-## Phase1: JavaScript基礎（1〜2日）
-
-Reactで必要なJavaScriptの基礎を学ぶ。
-
-### 学習内容
-
-- アロー関数
-- map
-- filter
-- 分割代入
-- スプレッド構文
-
-### 目標
-
-Reactで使う基本的なJavaScript構文を理解する。
+このリポジトリでは、JavaScript 基礎から始めて React を使ったアプリ開発まで段階的に学習していきます。
 
 ---
 
-## Phase2: React基礎（3〜5日）
+# 📚 学習目標
 
-Reactの基本概念を理解する。
-
-### 学習内容
-
-- Reactとは
-- JSX
-- コンポーネント
-- props
-- 配列データのレンダリング（map）
-
-### 作るもの
-
-- プロフィールカード
-- 商品カード
-
-### 目標
-
-ReactでUIをコンポーネントとして作れるようになる。
+- React の基本概念を理解する
+- React コンポーネント設計を理解する
+- 小規模な Web アプリを開発できるようになる
+- API を使ったアプリを作れるようになる
+- ポートフォリオアプリを作成する
 
 ---
 
-## Phase3: State管理（6〜12日）
+# 📁 ディレクトリ構成
+``` bash 
+react-study
+│
+├ counter-app
+├ todo-app
+├ memo-app
+├ github-user-search
+├ weather-app
+├ portfolio-app
+│
+├ logs
+│   └ template.md
+│
+├ .gitignore
+└ README.md
+```
 
-Reactの核心となるState管理を学ぶ。
+---
 
-### 学習内容
+# 🛠 アプリ一覧
+
+## 1. Counter App
+
+React の基本となる **State 管理**を学ぶアプリ。
+
+学習内容
 
 - useState
 - イベント処理
-- 条件レンダリング
-- フォーム入力管理
-
-### 作るもの
-
-- カウンターアプリ
-- いいねボタン
-- タブUI
-
-### 目標
-
-ユーザー操作によって画面を更新できるようになる。
+- コンポーネント
 
 ---
 
-## Phase4: ミニアプリ開発（13〜22日）
+## 2. Todo App
 
-Reactで小規模なアプリを作る。
+タスク管理アプリ。
 
-### 作るもの
+学習内容
 
-- TODOアプリ
-- メモアプリ
-
-### 学ぶこと
-
+- 配列 State 管理
+- 追加 / 削除
 - コンポーネント分割
-- 状態管理
-- UI設計
-
-### 目標
-
-小さなアプリを自力で作れるようになる。
 
 ---
 
-## Phase5: 実践アプリ（23〜35日）
+## 3. Memo App
 
-外部データを扱うReactアプリを作る。
+メモ管理アプリ。
 
-### 学習内容
+学習内容
 
+- CRUD の基本
+- 状態管理
+- UI 設計
+
+---
+
+## 4. GitHub User Search
+
+GitHub ユーザー検索アプリ。
+
+学習内容
+
+- API 取得
 - useEffect
-- API取得（fetch）
 - 非同期処理
 
-### 作るもの
+---
 
-- GitHubユーザー検索アプリ
-- 天気アプリ
+## 5. Weather App
 
-### 目標
+天気情報を取得するアプリ。
 
-APIを使ったアプリを作れるようになる。
+学習内容
+
+- 外部 API
+- ローディング管理
+- エラーハンドリング
 
 ---
 
-## Phase6: ポートフォリオ開発（36〜45日）
+## 6. Portfolio App
 
-Reactを使ったポートフォリオアプリを作る。
+最終的なポートフォリオアプリ。
 
-### 作るもの（例）
+作成予定アプリ例
 
 - トレーニング記録アプリ
 - 学習管理アプリ
 - タスク管理アプリ
 
-###
+---
+
+# 📝 学習ログ
+
+`logs` フォルダに日々の学習記録を保存します。
+
+# 進捗
+
+- [ ] Counter App
+- [ ] Todo App
+- [ ] Memo App
+- [ ] GitHub User Search
+- [ ] Weather App
+- [ ] Portfolio App
